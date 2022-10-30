@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/icon2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -18,7 +18,7 @@
   </head>
   <body class="container">
     <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-sm">
         <div class="modal-content">
           <div class="modal-body">
             <img
@@ -75,7 +75,7 @@
               <input
                 class="px-4 without-icon"
                 id="productnumber"
-                onfocus="(type='number')"
+                type="number"
                 onchange="changeColor();"
                 min="1"
                 max="100"
@@ -90,7 +90,7 @@
           </div>
 
           <div class="calc-btn">
-            <button data-bs-toggle="modal">Calculate</button>
+            <button class="fw-bold" data-bs-toggle="modal">Calculate</button>
             <h3 class="par">
               Please enter your order information to estimate shipping date
             </h3>

@@ -81,9 +81,14 @@ select:focus {
   transition: all 1s;
 }
 
+option {
+  color: #5b1dab;
+  font-size: 0.8rem;
+}
+
 .input-icons {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .input-icons i {
@@ -122,13 +127,14 @@ input[type="number"] {
 }
 
 button {
-  padding: 0.6rem;
+  padding: 0.5rem;
   background: linear-gradient(to right, #3528bb 0%, #ac6eff 100%);
   opacity: 0.9;
   border: none;
   border-radius: 2rem;
-  width: 11rem;
+  width: 12rem;
   color: #fff;
+  font-size: 1.1rem;
 }
 
 button:hover {
@@ -163,7 +169,7 @@ button:hover {
 
   .calc-btn {
     margin-top: 2.5rem;
-    margin-right: 5rem;
+    margin-right: 4rem;
     text-align: center;
   }
 
@@ -195,11 +201,6 @@ button:hover {
     width: 20rem;
     font-size: 1rem;
   }
-
-  option {
-    color: #5b1dab;
-    font-size: 0.8rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -223,7 +224,7 @@ button:hover {
 
   .calc-btn {
     margin-top: 2.5rem;
-    margin-left: 5rem;
+    margin-left: 5.2rem;
   }
 
   button {
@@ -234,14 +235,14 @@ button:hover {
 @media screen and (max-width: 600px) {
   .col1 {
     border-radius: 15%;
-    height: 100vh;
+
     z-index: 5;
     background: #fff;
     width: 80%;
   }
   .col2 {
     width: 60%;
-    height: 100vh;
+    max-height: 100vh;
   }
 
   h1 {
@@ -271,15 +272,19 @@ button:hover {
     font-size: 0.7rem;
   }
 
+  .input-icons {
+    margin: 0;
+  }
+
   .calc-btn {
     text-align: center;
-    margin-top: 2rem;
-    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
   }
 
   .par {
-    margin-left: 2rem;
-    font-size: 0.9rem;
+    width: 100%;
+    font-size: 0.8rem;
   }
 
   button {

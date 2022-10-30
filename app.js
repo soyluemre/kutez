@@ -30,16 +30,16 @@ calculateButton.addEventListener("click", () => {
 });
 
 const timeCalculation = () => {
-  if (inputType.value == "cotton" && Number(inputQuantity.value) < 50) {
+  if (inputType.value == "Cotton" && Number(inputQuantity.value) < 50) {
     shippingTime = 2;
   }
-  if (inputType.value == "cotton" && Number(inputQuantity.value) >= 50) {
+  if (inputType.value == "Cotton" && Number(inputQuantity.value) >= 50) {
     shippingTime = 3;
   }
-  if (inputType.value == "linen" && Number(inputQuantity.value) < 50) {
+  if (inputType.value == "Linen" && Number(inputQuantity.value) < 50) {
     shippingTime = 4;
   }
-  if (inputType.value == "linen" && Number(inputQuantity.value) >= 50) {
+  if (inputType.value == "Linen" && Number(inputQuantity.value) >= 50) {
     shippingTime = 5;
   }
 
