@@ -1,1 +1,1 @@
-Live => https://soyluemre.github.io/kutez/
+Live => https://soyluemre.github.io/shipping-time-calculator/
